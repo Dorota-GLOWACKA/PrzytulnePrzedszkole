@@ -1,0 +1,329 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(5, 31, 78, 0.2);
+	z-index: -1;
+}
+.hero-shadow-2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(6, 20, 47, 0.6);
+	z-index: -1;
+}
+
+.section-title {
+	text-align: center;
+	/* text-transform: uppercase; */
+	color: #3aa6b9;
+	font-size: 35px;
+}
+
+.top-hero {
+	position: relative;
+	height: 200px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
+
+/* NAWIGACJA */
+.navbar {
+	background-color: #3aa6b9;
+}
+
+.title-nav {
+	color: bisque;
+}
+
+nav {
+	font-size: 2rem;
+}
+
+.navbar-toggler {
+	font-size: 3rem;
+}
+
+.navbar-brand {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.nav-link {
+	color: bisque;
+}
+
+/* header */
+
+header {
+	font-size: 2rem;
+}
+
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url('../img/kindergarten-2204239_1920.jpg');
+}
+.carousel-img-two {
+	background-image: url('../img/children-808664_1920.jpg');
+}
+.carousel-img-three {
+	background-image: url('../img/hands-2847508_1920.jpg');
+}
+
+/* .header-title {
+	color: bisque;
+} */
+
+.home {
+	color: #3aa6b9;
+}
+
+.home i {
+	margin-top: 30px;
+	font-size: 40px;
+}
+.home .aboutus-card-title {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.home .aboutus-card-text {
+	font-size: 14px;
+}
+.home .home-hover:hover {
+	color: #d87984;
+}
+.home .home-hover {
+	transition: color 0.3s;
+}
+
+.home-passion {
+	position: relative;
+	height: 300px;
+	background-image: url(../img/sandpit-1345728_1920.jpg);
+	background-position: center;
+	background-size: cover;
+	color: bisque;
+	z-index: 0;
+}
+
+footer {
+	background-color: #3aa6b9;
+	color: bisque;
+}
+
+/* plan dnia */
+
+.plan-hero {
+	background-image: url('../img/plan-2372176_1920.jpg');
+	background-position: center;
+}
+
+.plan-section-title {
+	color: #3aa6b9;
+}
+
+table tr td.hour {
+	width: 8em;
+}
+
+table tr td {
+	height: 6em;
+}
+
+/* team - kadra */
+.aboutus-hero {
+	background-image: url('../img/Team/team2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+/* ----- */
+
+.aboutus-info {
+	background-color: rgba(53, 174, 196, 0.2);
+}
+
+.aboutus-info-2 {
+	background-color: whitesmoke;
+}
+
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+
+.aboutus-text {
+	padding: 1.8em;
+}
+
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3aa6b9;
+	/* text-decoration: underline  #3aa6b9;  */
+}
+
+.aboutus-text-right {
+	text-align: justify;
+}
+
+.aboutus-img {
+	height: 300px;
+	object-fit: cover;
+}
+
+/* zapisy i opłaty */
+.price-hero {
+	background-image: url('../img/Price/Price.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.price-info {
+	background-color: rgba(53, 174, 196, 0.2);
+}
+
+
+.prices {
+	margin: 3px;
+}
+.prices .person-type {
+	margin: 20px;
+	padding: 30px;
+	background-color: whitesmoke;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	transition: scale 0.3s;
+	/* height: 500px; */
+}
+.prices .person-type:hover {
+	scale: 1.05;
+}
+.prices li {
+	padding: 5px;
+}
+.prices ul {
+	list-style-type: none;
+}
+.prices .title {
+	color: #3aa6b9;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+.prices i {
+	padding: 0 5px;
+	font-size: 24px;
+}
+.prices .price-tag {
+	font-weight: bold;
+	font-size: 30px;
+}
+.prices {
+	margin-top: 30px;
+}
+
+/* kontakt */
+.contact-hero {
+	background-image: url('../img/kontakt/contact-scrable.jpg');
+	background-position: center;
+	background-size: cover;
+	object-fit: contain;
+}
+
+.contact h2 {
+	color: #3aa6b9;
+}
+
+.contact .btn {
+	background-color: #3aa6b9;
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+	color: bisque;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
+.contact .border {
+	height: 440px;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(53, 174, 196, 0.6);
+	}
+
+	.aboutus-img {
+		height: auto;
+	}
+
+
+} 
+
+@media (min-width: 1400px) {
+	.carousel-item {
+		height: 600px;
+	}
+
+	.carousel-img-one {
+		background-image: url('../img/kindergarten-2204239_1920.jpg');
+	}
+	.carousel-img-two {
+		background-image: url('../img/children-808664_1920.jpg');
+	}
+	.carousel-img-three {
+		background-image: url('../img/hands-2847508_1920.jpg');
+	}
+}
+
+
+
