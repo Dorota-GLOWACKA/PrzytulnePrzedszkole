@@ -293,6 +293,11 @@ table tr td {
 	height: 440px;
 }
 
+.contact-mail {
+	color: black;
+	font-weight: bold;
+}
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
